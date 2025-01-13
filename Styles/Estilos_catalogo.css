@@ -1,0 +1,25 @@
+@import "/Softmachine-DAM.github.io-main/Styles/Estilos.css";
+
+main{
+    background-color: #ffffff;
+}
+
+.Libros img{
+    width: 60%;
+}
+.Libros div{
+    background-color: #ffe4c450;
+    width: 20%;
+    border: 5px solid black;
+    padding: 2%;
+    margin:30px;
+    float: left;
+}
+
+.Titulo_Catalogo{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}

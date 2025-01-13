@@ -1,0 +1,14 @@
+@import "/Softmachine-DAM.github.io-main/Styles/Estilos.css";
+
+#Foto_Dudas{
+    float: right;
+    width: 40%;
+}
+
+.Titulo_Dudas{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}

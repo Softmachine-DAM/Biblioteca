@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- Inicio de la pagina web -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Softmachines">
+    <meta name="fecha" content="20-10-2024">
+    <meta name="proyecto reto" content="WEB-RETO-1">
+    <meta name="keywords" content="libros, biblioteca, Muskiz, lectura" >
+    <title>Biblioteca municipal Muskiz</title>
+    <link rel="stylesheet" href="/Softmachine-DAM.github.io-main/Styles/Estilos_index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/Softmachine-DAM.github.io-main/Imagenes/LOGO_MUSKIZ.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Softmachine-DAM.github.io-main/Imagenes/LOGO_MUSKIZ.png" alt="logo de la compañía">
+            <h2 class="nombre empresa">BIBLIOTECA MUNICIPAL MUSKIZ</h2>
+        </div>
+        <nav> <!-- El header de la pagina con seleccionables -->
+            <a href="/Softmachine-DAM.github.io-main/es/index.php" class="nav-link">Inicio</a>
+            <a href="/Softmachine-DAM.github.io-main/es/sobre_nosotros.php" class="nav-link">Sobre Nosotros</a>
+            <a href="/Softmachine-DAM.github.io-main/es/contacto.php" class="nav-link">Contacto</a>
+            <a href="/Softmachine-DAM.github.io-main/es/dudas_frecuentes.php" class="nav-link">Dudas Frecuentes</a>
+            <a href="/Softmachine-DAM.github.io-main/eu/index_eu.html" class="nav-link">Eu</a>
+        </nav>
+    </header>
+    <main>
+        <div id="Caja">
+            <div id="titulo">
+                <a href="/Softmachine-DAM.github.io-main/es/inicio_sesion.php"class="nav-link" class="Inicio_sesion">INICIO SESIÓN</a>
+            </div>
+            <hr> <!-- Explicacion del apartado "inicio sesion" -->
+            <p><br>En este apartado podremos tanto iniciar sesión como registrarnos en la pagina.</p>
+            <p>Si te registras en nuestra pagina podremos enviarte correos electrónicos sobre novedades de la biblioteca, próximos eventos etc.
+            <p>Por otro lado por registrarnos adquiriremos un certificado que demuestra que eres usuario de la biblioteca con el cual podrás tener beneficios como por ejemplo, acceso anticipado a eventos y a salas especiales de la biblioteca</p>
+            <p>*Solo los usuarios registrados que dispongan del certificado de registro podrán acceder a la zona de minicine en los eventos interactivos de tertulia o exposiciones*</p>
+            <hr>
+        </div>
+        <div id="Caja">
+            <div class="titulo">
+                <a href="/Softmachine-DAM.github.io-main/es/agenda.php"class="nav-link" class="Agenda">AGENDA</a>
+            </div>
+            <hr> <!-- Explicaciom del apartado "Agenda" -->
+            <p>En este apartado podremos acceder al calendario de eventos en vivo del que dispone la biblioteca. </p>
+            <p>Entre los eventos disponemos de tres actividades interactivas posibles.</p>
+            <p>La primera se refiere a exposiciones en la biblioteca, la cual se basa en la aparición de los libros en la zona de éxitos de la biblioteca</p>
+            <p>El segundo se refiere a una tertulia en la cual se leerán y comentaran algunos fragmentos de las obras dentro de un grupo interactivo</p>
+            <p>Por ultimo como evento especial se refiere a la entrada a la zona de minicine de la biblioteca en la cual se pondrán algunas obras relacionadas con las mismas tertulias o exposiciones</p>
+            <br>
+            <hr>
+        </div>
+        <div id="Caja">
+            <div class="titulo">
+                <a href="/Softmachine-DAM.github.io-main/es/catalogo.php"class="nav-link" class="Catalogo">CATALOGO</a>
+                <hr> <!-- Explicacion del apartado "Catalogo" -->
+            </div>
+            <p><br>Si nos referimos al catalogo, en esta biblioteca podremos encontrar una gran variedad de libros de muchos géneros distintos, desde fantasía hasta históricas.</p>
+            <p>Entre ellos podemos encontrar "La Casa de Bernarda Alba" o incluso la mítica novela de Michael Crichton, Jurassic Park entre otras</p>
+            <p>También se debe saber que solo se podrán ver si quedan ejemplares del libro al que se refiere, no se pueden ni pedir, ni alquilar libros desde la plataforma web. </p>
+            <p>Para eso tendrá que acudir físicamente a la Biblioteca Municipal De Muskiz.</p>
+            <hr>
+        </div>
+    </main>
+    <footer id="pie-pagina"> <!-- Aqui comienza el footer -->
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/Softmachine-DAM.github.io-main/Imagenes/Softmachines.png" alt="logo Softmachines">
+                    </a>
+                </figure>
+            </div>
+            <div class="box"> 
+                <h2>TÉRMINOS Y CONDICIONES DE USO</h2>
+                <p><a href="https://www.somorrostro.com/" class="aviso-legal">Aviso Legal</a></p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/MuskizUdala" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/muskizudala/" class="fab fa-instagram"></a>
+                    <a href="https://x.com/Muskiz" class="fab fa-twitter"></a>
+                    <a href="https://www.youtube.com/@MuskizUdalaAyuntamiento" class="fab fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+        <small>&copy;2024 <b>Softmachines</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>

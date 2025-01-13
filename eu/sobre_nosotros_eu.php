@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Softmachines">
+    <meta name="fecha" content="20-10-2024">
+    <meta name="proyecto reto" content="WEB-RETO-1">
+    <meta name="keywords" content="soporte,libros, biblioteca, Muskiz, lectura" >
+    <title>Guri Buruz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Styles/Estilos_SobreNosotros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/LOGO_MUSKIZ.png">
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <img src="/Imagenes/LOGO_MUSKIZ.png" alt="logo de la compañia">
+            <h2 class="nombre empresa">MUSKIZKO UDAL LIBURUTEGIA</h2>
+        </div>
+        <nav>
+            <a href="/eu/index_eu.html" class="nav-link">Hasiera</a>
+            <a href="/eu/sobre_nosotros_eu.html" class="nav-link">Gure Inguruan</a>
+            <a href="/eu/contacto_eu.html" class="nav-link">Kontaktua</a>
+            <a href="/eu/dudas_frecuentes_eu.html" class="nav-link">Galdera Orokorrak</a>
+            <a href="/es/index.html" class="nav-link">Es</a>
+        </nav>
+    </header>
+    <main>
+        <section class="zona_arriba">
+            <h2 class="sobre_nosotros_style"><B>GURE INGURUAN</B></h2>
+            Ongi etorri Muskizko Liburutegira, ezagutzaren, irakurketaren eta kulturaren grina elkartzen den espaziora, komunitateari elkartzeko eta ikasteko lekua eskaintzeko. Gure eginkizuna informaziorako sarbidea aske eta bidezkoa sustatzea da, hezkuntza, hazkunde pertsonala eta pertsonen arteko lotura bultzatuz.
+            Literatura klasikoetatik hasi eta azken albiste editorialetaraino, baita baliabide digitalekin ere, denetarik biltzen duen bilduma zabalarekin, gustu eta interes guztietarako material sorta zabala eskaintzen dugu. Horrez gain, liburuzain eta langile prestatutako talde dedikatu bat dugu, beti prest dagoen informazioa bilatzen laguntzeko, irakurtzeko gomendatzeko eta gure zerbitzuak erabiltzen laguntzeko.
+            Muskizko Liburutegian uste dugu liburutegia liburuak gordetzeko tokia baino askoz gehiago dela; ideiak bizitzen diren komunitate-zentro bat da, eta adin guztietako pertsonek beren jakin-mina arakatu eta ikasteko maitasuna elikatu dezakete. Gure bisitariak inspiratzeko eta aberasteko diseinatutako tailerrak, hitzaldiak, liburu klubak eta jarduera kulturalak antolatzen ditugu.
+            Irakurtzeko txoko lasai baten bila bazabiltza, ikasketetarako baliabideak edo, besterik gabe, zerbait berria ezagutu nahi baduzu, bisitatzera eta gure komunitatearen parte bihurtzera gonbidatzen zaitugu. Liburutegia zurea da!
+            <hr>
+            <h3 class="Donde_Encontrarnos"><b>NON AURKITU GAITZAKEZU</b></h3>
+            Aurkitu gaitzakezu urrengo kokapenean
+            <br>
+            Bo. San Juan, 10, 48550 Muskiz, Vizcaya
+            <br>
+            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd4ef7b47f9006e7:0x4f5a33e5bfc9c88d?sa=X&ved=1t:8290&ictx=111" class="nav-link">Direccion en Google Maps</a>
+            <br>
+            <video width="50%" height="50%" controls>
+                <source src="/Videos/Mapa-reto.mp4" type="video/mp4">
+            </video>
+            <br>
+            <hr>
+            <h3 class="Servicios"><b>Zerbitzuak</b></h3> 
+            Muskizko liburutegian honako zerbitzu hauek eskaintzen dizkiegu erabiltzaileei:
+            <br>
+            Liburuen alokairua
+            <br>
+            Liburuen salmenta eta erosketa
+            <br>
+            ikasketa gelak
+            <br>
+            Eta beste hainbat zerbitzu eskuragarri
+            <hr>
+            <h3 class="Historia"><b>Gure Histoirioa</b></h3>
+            <img src="/Imagenes/virai-proyectos-edificio-polivalente-en-muskiz-13.webp" style="width: 30%;height: 30%;"> 
+            <p>1970ean sortua, Muskizko Liburutegia 54 urte baino gehiago daramatza komunitatearen zutabea. Eraikin txiki batean hasi zenetik, baliabide-bilduma zabala duen zentro moderno bat izatera iritsi da, bai fisikoak bai digitalak.</p>
+        </section>
+    </main>
+    <footer id="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/Imagenes/Softmachines.png" alt="logo Softmachines">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>ERABILERA BALDINTZAK</h2>
+                <p><a href="https://www.somorrostro.com/" class="aviso-legal">Lege oharra</a></p>
+            </div>
+            <div class="box">
+                <h2>JARRAITU GAITZAZU</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/MuskizUdala" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/muskizudala/" class="fab fa-instagram"></a>
+                    <a href="https://x.com/Muskiz" class="fab fa-twitter"></a>
+                    <a href="https://www.youtube.com/@MuskizUdalaAyuntamiento" class="fab fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+        <small>&copy;2024 <b>Softmachines</b> - Eskubide guztaik erreserbatutak.</small>
+        </div>
+    </footer> 
+</body>   
+</html>

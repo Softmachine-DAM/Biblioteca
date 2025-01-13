@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Softmachines">
+    <meta name="fecha" content="20-10-2024">
+    <meta name="proyecto reto" content="WEB-RETO-1">
+    <meta name="keywords" content="catalogo,libros, biblioteca, Muskiz, lectura" >
+    <title>Catalogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Softmachine-DAM.github.io-main/Styles/Estilos_catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/Softmachine-DAM.github.io-main/Imagenes/LOGO_MUSKIZ.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Softmachine-DAM.github.io-main/Imagenes/LOGO_MUSKIZ.png" alt="logo de la compañía">
+            <h2 class="nombre empresa">BIBLIOTECA MUNICIPAL MUSKIZ</h2>
+        </div>
+        <nav>
+            <a href="/Softmachine-DAM.github.io-main/es/index.php" class="nav-link">Inicio</a>
+            <a href="/Softmachine-DAM.github.io-main/es/sobre_nosotros.php" class="nav-link">Sobre Nosotros</a>
+            <a href="/Softmachine-DAM.github.io-main/es/contacto.php" class="nav-link">Contacto</a>
+            <a href="/Softmachine-DAM.github.io-main/es/dudas_frecuentes.php" class="nav-link">Dudas Frecuentes</a>
+            <a href="/Softmachine-DAM.github.io-main/eu/index_eu.html" class="nav-link">Eu</a>
+        </nav>
+    </header>
+    <h2 class="Titulo_Catalogo"><b>CATALOGO</b></h2>
+    <main>
+        <section class="Libros">
+            <div class="Don Quijote de la Mancha">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/Quijote de la mancha.jpg" alt="Don Quijote de la Mancha">
+                <p>Titulo: Don Quijote de la Mancha</p>
+                <p>Autor: <i>Miguel de Cervantes Saavedra</i></p>
+                <p>Géneros: Aventura, Realista</p>
+                <p>Sinopsis: Don Quijote de la Mancha narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a si mismo don Quijote de la Mancha.</p>
+            </div>
+            <div class="La Celestina">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/La_celestina.jpg" alt="La Celestina">
+                <p>Titulo: La Celestina</p>
+                <p>Autor: <i>Fernando de Rojas</i> (atribuido)</p>
+                <p>Géneros: Comedia, drama</p>
+                <p>Sinopsis: La loca pasión por Melibea, hija de un rico mercader, lleva al joven Calisto a romper todas las barreras y a aliarse con una vieja alcahueta. </p>
+            </div>
+            <div class="La casa de Bernarda Alba">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/360_la-casa-de-bernarda-alba.jpg" alt="La casa de Bernarda Alba">
+                <p>Titulo: La casa de Bernarda Alba</p>
+                <p>Autor: <i>Federico García Lorca</i></p>
+                <p>Géneros: Drama, tragedia</p>
+                <p>Sinopsis: La historia gira en torno a Bernarda Alba, una viuda dominante y autoritaria que impone un luto riguroso sobre sus cinco hijas tras la muerte de su segundo marido. Encerradas en su casa, las hijas luchan por su libertad y deseos personales bajo la opresión y el control de su madre.</p>
+            </div>
+            <div class="Harry Potter y la piedra filosofal">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/Harry_potter.jpg" alt="Harry Potter y la piedra filosofal">
+                <p>Titulo: Harry Potter y la piedra filosofal</p>
+                <p>Autor: <i>J.K. Rowling</i></p>
+                <p>Géneros: Fantasía, aventuras</p>
+                <p>Sinopsis: Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el colegio interno Hogwarts de magia y hechicería.</p>
+            </div>
+            <div class="Jurassic Park">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/jurassic_park2.jpg" alt="Jurassic Park">
+                <p>Titulo: Jurassic Park</p>
+                <p>Autor: <i>Michael Crichton</i></p>
+                <p>Géneros: Ciencia ficción</p>
+                <p>Sinopsis:  En una isla remota, un grupo de hombres y mujeres emprende una carrera contra el tiempo para evitar un desastre mundial provocado por la desmedida ambición de comercializar la ingeniería genética.</p>
+            </div>
+            <div class="Percy Jackson y el ladron del rayo">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/PercyJacksonyElLadrondelRayo.jpg" alt="Percy Jackson y el ladrón del rayo">
+                <p>Titulo: Percy Jackson y el ladrón del rayo</p>
+                <p>Autor: <i>Rick Riordan</i></p>
+                <p>Géneros: Fantasía</p>
+                <p>Sinopsis: Acompaña a Percy a través de esta apasionante serie de aventuras sobre un mundo secreto, el mundo que los antiguos dioses griegos han recreado a nuestro alrededor en pleno siglo XXI. ¿Qué pasaría si un día descubrieras que, en realidad, eres hijo de un dios griego que debe cumplir una misión secreta? Pues eso es lo que le sucede a Percy Jackson, que a partir de ese momento se dispone a vivir los acontecimientos más emocionantes de su vida.</p>
+            </div>
+            <div class="Los tres mosqueteros">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/tresmosqueteros.jpg" alt="Los tres mosqueteros">
+                <p>Titulo: Los tres mosqueteros</p>
+                <p>Autor: <i>Alejandro Dumas</i></p>
+                <p>Géneros: Histórica</p>
+                <p>Sinopsis: D'Artagnan, un joven gascón de familia noble venida a menos, parte a París para cumplir su sueño de convertirse en Mosquetero. Allí entabla una fuerte amistad con tres de ellos: Athos, Porthos y Aramis. Juntos se verán envueltos en todo tipo de peripecias, romances e intrigas políticas en contra del Cardenal Richelieu.</p>
+            </div>
+            <div class="La dama de las camelias">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/ladamadelascamelias.jpg" alt="La dama de las camelias">
+                <p>Titulo: La dama de las camelias</p>
+                <p>Autor: <i>Alexandre Dumas (hijo)</i></p>
+                <p>Géneros: Realismo, ficción romántica</p>
+                <p>Sinopsis:  Obra que relata los amores trágicos entre la joven Marguerite Gautier, "entretenida" del París de la época, románticamente enferma de tuberculosis y poseedora de una belleza sin igual, y Armand Duval, hijo de familia respetable, lleno de buenas intenciones y presa de la ingenuidad propia de su edad.</p>
+            </div>
+            <div class="El Lazarillo de Tormes">
+                <img src="/Softmachine-DAM.github.io-main/Imagenes/lazarillo_de_tormes.jpg" alt="El Lazarillo de Tormes">
+                <p>Titulo: El Lazarillo de Tormes</p>
+                <p>Autor: <i>Anónimo</i></p>
+                <p>Géneros: Novela picaresca</p>
+                <p>Sinopsis: Relata las desventuras que un joven de origen humilde sufre al servicio de sus amos, entre los que se cuentan un ciego, un clérigo y un hidalgo pobre. Los avatares por los que pasa Lázaro son un magnífico pretexto para plasmar una ácida crítica a la sociedad de la época.</p>
+            </div>
+        </section>
+    </main>
+    <footer id="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/Softmachine-DAM.github.io-main/Imagenes/Softmachines.png" alt="logo Softmachines">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>TÉRMINOS Y CONDICIONES DE USO</h2>
+                <p><a href="https://www.somorrostro.com/" class="aviso-legal">Aviso Legal</a></p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/MuskizUdala" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/muskizudala/" class="fab fa-instagram"></a>
+                    <a href="https://x.com/Muskiz" class="fab fa-twitter"></a>
+                    <a href="https://www.youtube.com/@MuskizUdalaAyuntamiento" class="fab fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+        <small>&copy;2024 <b>Softmachines</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>

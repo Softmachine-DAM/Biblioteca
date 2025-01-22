@@ -1,0 +1,45 @@
+@import "../Styles/Estilos\(importados\).css";
+
+body{
+    background-image: url(/IMAGENES/constructor.png);
+}
+
+.CAJA{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20% auto;
+    height: 200px;
+    width: 70%;
+
+    
+}
+
+.heart-button{
+    background-color: rgb(56,130,243);
+    color: #fff;
+    padding:  60px 90px;
+    font-size: 20px;
+    font-weight:bold;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.75);
+    animation: heartbeat 1s infinite;
+    font-size: 50px;
+  }
+
+@keyframes heartbeat{
+  0%{
+    transform:scale(1);
+    box-shadow: 0px rgba(0, 0, 0, 0.75);
+  }
+  50%{
+    transform: scale(1.05);
+    box-shadow:0px 0px 90px 4px rgb(243, 240, 56) ;
+  }
+  100%{
+    transform: scale(1)0;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  }
+}

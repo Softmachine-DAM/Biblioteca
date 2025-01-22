@@ -1,0 +1,30 @@
+@import "../Styles/Estilos\(importados\).css";
+
+.sobre_nosotros_style{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.Donde_Encontrarnos{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.Servicios{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.Historia{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}

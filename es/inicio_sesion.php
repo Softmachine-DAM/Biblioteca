@@ -30,9 +30,7 @@
             <a href="../eus/Index(eus).html">  <b> >  Euskaraz  </b>   </a>
         </nav>
         <div class="contacto">
-            <a href="softmachines@gmial.com"> 
-                
-            </a>
+            <a href="softmachines@gmial.com"></a>
         </div>
     </header>
     <main>

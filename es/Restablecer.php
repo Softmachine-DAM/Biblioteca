@@ -1,5 +1,5 @@
 <?php
-    include "conexion.php";
+    include "./conexion.php";
     $correo = '';
     $usuarios = "SELECT * FROM clientes_1 WHERE Correo = '$correo'";
 ?>
@@ -24,16 +24,19 @@
 <body>
     <header>
         <div class="logo">
-            <img src="/Imagenes/LOGO_MUSKIZ.png" alt="logo de la compañía">
-            <h2 class="nombre empresa">BIBLIOTECA MUNICIPAL MUSKIZ</h2>
+            <img src="../IMAGENES/LOGO_MUSKIZ.jpg" alt="Bilbao Logo">
+            <h1 class="Biblioteca_muskiz">   BIBLIOTECA DE MUSKIZ</h1>
         </div>
-        <nav>
-            <a href="./index.php" class="nav-link">Inicio</a>
-            <a href="./sobre_nosotros.php" class="nav-link">Sobre Nosotros</a>
-            <a href=".es/contacto.php" class="nav-link">Contacto</a>
-            <a href=".es/dudas_frecuentes.php" class="nav-link">Dudas Frecuentes</a>
-            <a href="../eu/index_eu.html" class="nav-link">Eu</a>
+        <nav class="menu">
+            <a href="./Index.html"> |    <b>Inicio</b>     |</a>
+            <a href="./Contacto.html">|    <b>Ayuda</b>    |</a>
+            <a href="./Accesibilidad.html">|  <b>Accesibilidad</b>    |</a>
+            <a href="./Registro.html">  <b>| Registro  |</b>   </a>
+            <a href="../eus/Index(eus).html">  <b> >  Euskaraz  </b>   </a>
         </nav>
+        <div class="contacto">
+            <a href="softmachines@gmial.com"></a>
+        </div>
     </header>
     <main id="sign-in">
         <div class="container-add">
@@ -52,6 +55,5 @@
         </div>
         <sub>¿Ya estas registrado? <a href="../es/inicio_sesion.php" style="text-decoration-color: blue;">Inicia sesión aquí.</a></sub>
     </main>
-   
 </body>
 </html>

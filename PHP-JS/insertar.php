@@ -6,8 +6,7 @@ $apellidos = $_POST["Apellidos"];
 $correo = $_POST["Correo"];
 $telefono = $_POST["Telefono"];
 $contraseña = password_hash($_POST["Contraseña"], PASSWORD_DEFAULT);
-$insertar = "INSERT INTO clientes_1 (Nombre, Apellidos, Correo, Telefono, Contraseña) 
-             VALUES ('$nombre', '$apellidos', '$correo', '$telefono', '$contraseña')";
+$insertar = "INSERT INTO clientes_1 (Nombre, Apellidos, Correo, Telefono, Contraseña) VALUES ('$nombre', '$apellidos', '$correo', '$telefono', '$contraseña')";
 
 $resultado = mysqli_query($conexion, $insertar);
 

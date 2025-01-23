@@ -34,6 +34,20 @@
     object-fit: cover;
 }
 
+.front{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.back{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 main h1 {
     text-align:center ;
     font-size: 40px;

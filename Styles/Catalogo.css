@@ -1,7 +1,17 @@
 @import "../Styles/Estilos\(importados\).css";
 
-main{
-    background-color: #ffffff;
+body{
+    background-color: lightcyan;
+}
+
+.Titulo_Catalogo{
+    background-color: #007bff;
+    width: 60%;
+    margin-left: 100px;
+    border: solid black;
+    border-radius: 20px;
+    color: white;
+    margin: 2% auto;
 }
 
 .Libros{
@@ -21,13 +31,17 @@ main{
 }
 
 .front{
-    margin: auto;
-    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .back{
-    margin: auto;
-    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .Titulo_Catalogo{

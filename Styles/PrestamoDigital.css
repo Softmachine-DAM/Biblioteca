@@ -43,3 +43,121 @@ body{
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
   }
 }
+
+@media (max-width: 480px) {
+  body {
+      background-size: cover;
+      margin: 0;
+  }
+
+  .CAJA {
+      flex-direction: column;
+      margin: 5% auto;
+      width: 95%;
+      height: auto;
+  }
+
+  .heart-button {
+      padding: 30px 50px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  header {
+      padding: 10px;
+      text-align: center;
+  }
+
+  .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .menu a {
+      font-size: 14px;
+  }
+
+  .logo img {
+      width: 80px;
+      height: auto;
+  }
+
+  .logo h1 {
+      font-size: 1.2rem;
+  }
+}
+
+/*MOVILES*/
+@media (max-width: 768px) {
+  body {
+      background-size: cover;
+  }
+
+  .CAJA {
+      flex-direction: column;
+      margin: 10% auto;
+      width: 90%;
+      height: auto;
+  }
+
+  .heart-button {
+      padding: 40px 70px;
+      font-size: 30px;
+  }
+
+  header {
+      text-align: center;
+      padding: 10px;
+  }
+
+  .menu {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+  }
+
+  .menu a {
+      font-size: 16px;
+  }
+
+  .logo {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+}
+
+/* tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+      background-size: cover;
+  }
+
+  .CAJA {
+      width: 80%;
+      height: auto;
+      margin: 15% auto;
+  }
+
+  .heart-button {
+      padding: 50px 80px;
+      font-size: 40px;
+  }
+
+  header {
+      padding: 15px;
+  }
+
+  .menu {
+      gap: 20px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+}

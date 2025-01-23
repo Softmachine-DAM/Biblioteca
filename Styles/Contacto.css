@@ -270,3 +270,108 @@ footer{
     color: #ffffff;
     width: 100%;
   }
+
+  /*Moviles*/
+  @media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .Titulo_Contacto {
+        width: auto;
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+
+    sub {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 15px 0;
+    }
+
+    .footer-links {
+        margin-bottom: 10px;
+    }
+
+    .footer-social img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*Pantallas grandes, tabletas*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    form {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 80%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 1.1em;
+    }
+}

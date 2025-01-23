@@ -1,0 +1,93 @@
+@import "../Styles/Estilos\(importados\).css";
+body{
+    background-image: url(/IMAGENES/fondoPrestamo2.jpg);
+}
+.container_1 {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #0073e6;
+    text-align: center;
+}
+ul {
+    list-style: disc inside;
+    margin: 1rem 0;
+}
+li {
+    margin: 0.5rem 0;
+}
+.imagen1{
+    width:200px;
+    height: 200px;
+    padding-left: 35%;
+    margin-top: 20px;
+    animation: subir 5s infinite;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .container_1 {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .menu a {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .imagen1 {
+        width: 100px;
+        height: 100px;
+        padding-left: 20%;
+    }
+
+    footer .footer-section {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    footer .footer-social img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .container_1 {
+        max-width: 95%;
+        padding: 1rem;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .imagen1 {
+        width: 120px;
+        height: 120px;
+        padding-left: 20%;
+    }
+}

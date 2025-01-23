@@ -1,6 +1,18 @@
 @import "../Styles/Estilos\(importados\).css";
 
-.sobre_nosotros_style{
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Titulo_Sobre_Nosotros{
+    background-color: #007bff;
+    width: 60%;
+    margin-left: 100px;
+    border: solid black;
+    border-radius: 20px;
+    color: white;
+    margin: 2% auto;
     text-align: center;
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
@@ -8,6 +20,14 @@
     font-size: 30px;
 }
 
+#Zona_Principal{
+    grid-column: 1,2;
+}
+
+#Zona_Principal div{
+    border: 2px solid black;
+    margin: 3%;
+}
 
 .Donde_Encontrarnos{
     font-family: "Bona Nova SC", serif;
@@ -27,4 +47,16 @@
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#Info_General{
+    grid-column: 2,3;
+    display: flex;
+    justify-content: center;
+}
+#Info_General div{
+    width: 80%;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 2%;
 }

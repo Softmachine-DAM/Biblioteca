@@ -1,0 +1,9 @@
+$("#Don_Quijote").flip();
+$("#La_Celestina").flip();
+$("#Bernarda_Alba").flip();
+$("#Harry_Potter").flip();
+$("#Jurassic_Park").flip();
+$("#Percy_Jackson").flip();
+$("#Los_tres_mosqueteros").flip();
+$("#La_dama").flip();
+$("#Lazarillo_Tormes").flip();

@@ -27,7 +27,7 @@
             <a href="./Contacto.html">|    <b>Ayuda</b>    |</a>
             <a href="./Accesibilidad.html">|  <b>Accesibilidad</b>    |</a>
             <a href="./Registro.html">  <b>| Registro  |</b>   </a>
-            <a href="../eus/Index(eus).html">  <b> >  Euskaraz  </b>   </a>
+            <a href="../eus/inicio_sesion(eus).php">  <b> >  Euskaraz  </b>   </a>
         </nav>
         <div class="contacto">
             <a href="softmachines@gmial.com"></a>

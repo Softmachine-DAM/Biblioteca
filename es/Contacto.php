@@ -20,59 +20,54 @@ include("../PHP-JS/Conexion.php");
     <link rel="icon" type="image/x-icon" href="../IMAGENES/LOGO_MUSKIZ.jpg">
 </head>
 <body>
-<header>
+    <header>
         <div class="logo">
             <img src="../IMAGENES/LOGO_MUSKIZ.jpg" alt="Bilbao Logo">
-            <h1 class="Biblioteca_muskiz">   MUSKIZKO LIBURUTEGIA</h1>
+            <h1 class="Biblioteca_muskiz">   BIBLIOTECA DE MUSKIZ</h1>
         </div>
         <nav class="menu">
-            <a href="Index(eus).html"> |    <b>Hasiera</b>     |</a>
-            <a href="Contacto(eus).php">|    <b>Laguntza</b>    |</a>
-            <a href="Accesibilidad(eus).html">|  <b>Irisgarritasuna</b>    |</a>
-            <a href="Registro(eus).html">  <b>| Erregistroa  |</b>   </a>
-            <a href="/es/Contacto.php">  <b> >  Gazteleraz  </b>   </a>
-           
+            <a href="./Index.html"> |    <b>Inicio</b>     |</a>
+            <a href="./Contacto.html">|    <b>Ayuda</b>    |</a>
+            <a href="./Accesibilidad.html">|  <b>Accesibilidad</b>    |</a>
+            <a href="./Registro.html">  <b>| Registro  |</b>   </a>
+            <a href="../eus/Contacto(eus).php">  <b> >  Euskaraz  </b>   </a>
         </nav>
         <div class="contacto">
-            <a href="softmachines@gmail.com"> 
-                
-            </a>
-
+            <a href="softmachines@gmial.com"></a>
         </div>
     </header>
     <main>
         <div class="form-content">
-            <h2 class="Titulo_Contacto"><b>Bidali formularioa</b></h2>
+            <h2 class="Titulo_Contacto"><b>Enviar su formulario</b></h2>
             <form action="quejas.php" method="post" class="container__form">
-                <label for="Nombre">Izena</label>
+                <label for="Nombre">Nombre</label>
                 <input type="text" name="Nombre" id="Nombre" placeholder="Manolo Jiménez Curro">
    
-                <label for="email">Elbide elektronikoa</label>
+                <label for="email">Correo electrónico</label>
                 <input type="email" name="Correo_Electronico" id="Correo_Electronico" placeholder="Manolojmcr@gmail.com">
    
-                <label for="subject">Gaia</label>
+                <label for="subject">Asunto</label>
                 <input type="text" name="Asunto" id="Asunto" placeholder="Fallos en la pagina,Dudas etc">
                 <hr>
                 <br>
-                <label for="coments">Iruzkinak</label>
+                <label for="coments">Comentarios</label>
                 <input type="text" name ="Comentarios" id="Comentarios" placeholder="Introduce un comentario">
                 <input class="btn" type="submit" value="Enviar">
             </form>
-            <sub><a href="/es/VerQuejas(eus).php" style="text-decoration-color: blue;">Gehien egiten diren galderak ezagutu nahi dituzu? Ikus ezazu hemen!</a></sub>
+            <sub><a href="/es/VerQuejas.php" style="text-decoration-color: blue;">¿Quieres saber las dudas mas frecuentes? !Mirelo aqui!</a></sub>
         </div>
         
     </main>
     
     <footer class="footer">
         <div class="footer-section footer-links">
-          <a></a>
-            <a href="#">Pribatutasun-politika</a>
+          <a href="#">Política de privacidad</a>
           <span>|</span>
-          <a href="somorrostro.com">Lege-oharra</a>
+          <a href="#">Aviso legal</a>
         </div>
         <div class="footer-section footer-info">
-            Muskizko Udala. Kultura eta Hezkuntza Arloa. Liburutegien Azpizuzendaritza<br>
-            Bidebarrieta kalea, 4, 48530 Bilbao.<br>
+          Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+          Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
           Teléfonos: 944 150 915, 944 156 930
         </div>
         <div class="footer-section footer-social">
@@ -82,8 +77,9 @@ include("../PHP-JS/Conexion.php");
           <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
         </div>
         <div class="Softmachines">
-          <small>&copy;2024 <small>Softmachines </small> - Eskubide guztiak erreserbatuta.</small>
+          <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
           </div>
-      </footer> 
+ 
+      </footer>  
 </body>
 </html>

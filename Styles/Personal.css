@@ -57,3 +57,66 @@ main h1 {
 main h3{
     text-align: center;
 }
+
+@media (max-width: 576px) {
+    .contenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caja {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
+
+    .caja img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    header .logo img {
+        width: 50px;
+    }
+
+    header .logo h1 {
+        font-size: 16px;
+    }
+
+    nav.menu {
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    footer .footer-section {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .contenedor {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .caja {
+        width: 45%;
+        height: auto;
+    }
+
+    header .logo h1 {
+        font-size: 20px;
+    }
+
+    nav.menu {
+        flex-wrap: nowrap;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    footer .footer-section {
+        font-size: 14px;
+    }
+}

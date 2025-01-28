@@ -10,6 +10,18 @@ font-size: 30px;
 color:black;
 }
 
-
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 

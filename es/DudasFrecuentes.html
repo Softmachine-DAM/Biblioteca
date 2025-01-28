@@ -3,14 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Softmachines">
-    <meta name="fecha" content="20-10-2024">
-    <meta name="proyecto reto" content="WEB-RETO-1">
-    <meta name="keywords" content="soporte,libros, biblioteca, Muskiz, lectura" >
-    <title>Dudas Frecuentes</title>
     <link rel="stylesheet" href="../Styles/DudasFrecuentes.css">
-    <link rel="icon" type="image/x-icon" href="../IMAGENES/LOGO_MUSKIZ.jpg">
-
+    <title>FAQ</title>
+    <script src="../JavaScript/DudasFrecuentes.js"></script>
 </head>
 <body>
     <header>
@@ -23,41 +18,76 @@
             <a href="./Contacto.html">|    <b>Ayuda</b>    |</a>
             <a href="./Accesibilidad.html">|  <b>Accesibilidad</b>    |</a>
             <a href="./Registro.html">  <b>| Registro  |</b>   </a>
-            <a href="../eus/DudasFrecuentes(eus).html">  <b> >  Euskaraz  </b>   </a>
+            <a href="../eus/Index(eus).html">  <b> >  Euskaraz  </b>   </a>
         </nav>
         <div class="contacto">
             <a href="softmachines@gmial.com"></a>
         </div>
     </header>
+    <div class="Titulo_Dudas">
+        Dudas Frecuentes - Biblioteca
+    </div>
     <main>
-        <h2 class=Titulo_Dudas><b>DUDAS FRECUENTES</b></h2>
-        <br>
-        <img id="Foto_Dudas" src="../Imagenes/foto_biblioteca_muskiz.jpg" alt="Biblioteca Muskiz">
-        <div>
-            <h3>¿Cuantos días puedo tomar un libro prestado?</h3>
-            <p>Puedes llevarte un libro prestado por una duración de 14 días.</p><br>
-        </div>
-        <div>
-            <h3>¿Cuantos libros puedo tener prestados al mismo tiempo?</h3>
-            <p>Se pueden tener hasta un total de 3 prestamos activos al mismo tiempo.</p><br>
-        </div>
-        <div>
-            <h3>¿Hay algún tipo de penalización si devuelvo un libro tarde?</h3>
-            <p>Si, en caso de una devolución tardía el usuario en cuestión no podrá pedir otro libro prestado por una duración de tiempo equivalente al tiempo que estuvo el ejemplar sin devolver.</p><br>
-        </div>
-        <div>
-            <h3>¿Cual es el horario de apertura de la biblioteca?</h3>
-            <p>De lunes a viernes de 10:00 a 13:00 y de 16:00 a 19:45. Los sábados y domingos la biblioteca se encuentra cerrada.</p><br>
-        </div>
-        <div>
-            <h3>¿Se necesita carné para entrar a la biblioteca?</h3>
-            <p>No se necesita carné para entrar a la biblioteca, pero si se necesita para realizar prestamos.</p><br>
-        </div>
-        <div>
-            <h3>¿Cuando se dan los eventos?</h3>
-            <p>Los eventos son siempre los viernes a las 18:00.</p>
+        <div class="Preguntas-contenedor">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Cuántos días puedo tomar un libro prestado?</button>
+                <div class="respuesta">Puedes llevarte un libro prestado por una duración de 14 días.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Cuántos libros puedo tener prestados al mismo tiempo?</button>
+                <div class="respuesta">Se pueden tener hasta un total de 3 préstamos activos al mismo tiempo.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Hay algún tipo de penalización si devuelvo un libro tarde?</button>
+                <div class="respuesta">Sí, en caso de una devolución tardía no podrás pedir otro libro prestado por el mismo tiempo que estuvo el ejemplar sin devolver.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Cuál es el horario de apertura de la biblioteca?</button>
+                <div class="respuesta">De lunes a viernes de 10:00 a 13:00 y de 16:00 a 19:45. Los sábados y domingos la biblioteca está cerrada.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Se necesita carné para entrar a la biblioteca?</button>
+                <div class="respuesta">No se necesita carné para entrar a la biblioteca, pero sí para realizar préstamos.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Cuándo se dan los eventos?</button>
+                <div class="respuesta">Los eventos son siempre los viernes a las 18:00.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Puedo renovar un préstamo?</button>
+                <div class="respuesta">Sí, puedes renovar un préstamo por otros 14 días siempre y cuando no haya otra persona en lista de espera para ese libro.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Hay acceso a internet en la biblioteca?</button>
+                <div class="respuesta">Sí, la biblioteca cuenta con acceso a internet gratuito mediante Wi-Fi y ordenadores disponibles para los usuarios.</div>
+            </div>
+            <div class="pregunta">
+                <button onclick="toggleFaq(this)">¿Puedo reservar un libro?</button>
+                <div class="respuesta">Sí, puedes realizar una reserva en el mostrador de la biblioteca o a través de nuestro sitio web.</div>
+            </div>
         </div>
     </main>
-   
+    <footer class="footer">
+        <div class="footer-section footer-links">
+            <a href="#">Política de privacidad</a>
+            <span>|</span>
+            <a href="somorrostro.com">Aviso legal</a>
+        </div>
+        <div class="footer-section footer-info">
+            Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+            Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
+            Teléfonos: 944 150 915, 944 156 930
+        </div>
+        <div class="footer-section footer-social">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="/IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+        <div class="Softmachines">
+            <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>

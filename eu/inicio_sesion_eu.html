@@ -7,11 +7,11 @@
     <meta name="fecha" content="20-10-2024">
     <meta name="proyecto reto" content="WEB-RETO-1">
     <meta name="keywords" content="soporte,libros, biblioteca, Muskiz, lectura" >
-    <title>Kontaktua</title>
+    <title>Saioa Hasiera</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Styles/Estilos_contacto.css">
+    <link rel="stylesheet" href="../Styles/Estilos_Inicio_Sesion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="/Imagenes/LOGO_MUSKIZ.png">
 </head>
@@ -29,25 +29,17 @@
             <a href="/es/index.html" class="nav-link">Es</a>
         </nav>
     </header>
-    <main>
-        <img src=/Imagenes/check-1292819_640.png alt="check" id="checkit">
-        <div class="form-content">
-            <h2 class="Titulo_Contacto"><B>Zure galdetegia bidali</B></h2>
-            <form>
-                <label for="name">Izena</label>
-                <input type="text" name="name" id="name"placeholder="Manolo Jiménez Curro">
-                <label for="email">Korreo Elektronikoa</label>
-                <input type="email" name="email" id="email"placeholder="Manolojmcr@gmail.com">
-                <label for="subject">kontua</label>
-                <input type="text" name="subject" id="subject"placeholder="porrotak web orrian,g etc" >
-                <hr>
-                <br>
-                <label for="coments">Komentarioak</label>
-                <input type="text" placeholder="Bidali iruzkina">
-                <input class="btn" type="submit" value="Bidali" >
-            </form>
-        </div>
-    </main>
+    <main id="sign-in">
+        <h1>Saioa Hasi</h1> 
+        <form>
+            <label for="correo">Helbide elektronikoa</label><br>
+            <input type="email" name="correo" id="correo"><br>
+            <label for="passwd">Pasahitza</label><br>
+            <input type="password" name="passwd" id="passwd"><br><br>
+            <input type="button" value="Sartu">
+        </form>
+        <sub>¿Ez duzu konturik? <a href="/eu/registro_eu.html" style="text-decoration-color: blue;">Sortu bat hemen.</a></sub>
+    </main>      
     <footer id="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -74,6 +66,6 @@
         <div class="grupo-2">
         <small>&copy;2024 <b>Softmachines</b> - Eskubide guztaik erreserbatutak.</small>
         </div>
-    </footer> 
+    </footer>
 </body>
-</html> 
+</html>

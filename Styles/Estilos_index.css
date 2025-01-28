@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import "../Styles/Estilos.css";
+=======
+@import "./Estilos.css";
+>>>>>>> 9c4ae5ddca8c250d9ba66cef24fbd96873b00c64
 
 #Caja {
     background-color: #ffe4c450;

@@ -1,22 +1,68 @@
 @import "../Styles/Estilos\(importados\).css";
 
-#sign-in{
-    text-align: center;
-    margin: auto;
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#sign-up{
+    display: flex;
+    width: 70%;
+	background-color: #108cffea;
+	border: 5px solid #0004ff;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 0px 0px 10px #847dbe;
+}
 
 .Titulo_Registro{
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    text-align: center;
 }
 
+#sign-up label{
+    display: flexbox;
+    width: 60%;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
-body{
-    background-image: url(https://www.podiprint.com/wp-content/uploads/2017/09/como-promocionar-un-libro.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-   
+#sign-up input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #847dbe;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#sign-up input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #44f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sign-up input[type="submit"]:hover {
+    background-color: #00f;
+}
+
+#sign-up p a {
+    text-decoration: none;
+    color: green;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }

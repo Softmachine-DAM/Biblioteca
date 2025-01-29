@@ -31,26 +31,26 @@
             </a>
         </div>
     </header>
-    <main id="sign-in">
-        <h1 class="Titulo_Registro"><b>Nuevo registro</b></h1> 
-        <div class="container-add">
-            <h2 class="container__title">Registrar Usuario</h2>
-            <form action="insertar.php" method="post" class="container__form">
-                <label for="" class="container__label">Nombre:</label>
-                <input name="Nombre" type="text" class="container__input">
-                <label for="" class="container__label">Apellidos:</label>
-                <input name="Apellidos" type="text" class="container__input">
-                <label for="" class="container__label">Correo:</label>
-                <input name="Correo" type="text" class="container__input">
-                <label for="" class="container__label">Telefono:</label>
-                <input name="Telefono" type="number" class="container__input">
-                <label for="" class="container__label">Contraseña:</label>
-                <input name="Contraseña" type="text" class="container__input">
-                <input class="table_item__link" type="Submit" Value="Registrar">
-            </form>
+    <main>
+        <div id="sign-up">
+            <h1 class="Titulo_Registro"><b>Nuevo registro</b></h1> 
+            <div class="formulario">
+                <form action="insertar.php" method="post" class="container__form">
+                    <label for="" class="container__label">Nombre:</label>
+                    <input name="Nombre" type="text" class="container__input">
+                    <label for="" class="container__label">Apellidos:</label>
+                    <input name="Apellidos" type="text" class="container__input">
+                    <label for="" class="container__label">Correo:</label>
+                    <input name="Correo" type="text" class="container__input">
+                    <label for="" class="container__label">Telefono:</label>
+                    <input name="Telefono" type="number" class="container__input">
+                    <label for="" class="container__label">Contraseña:</label>
+                    <input name="Contraseña" type="text" class="container__input">
+                    <input class="table_item__link" type="Submit" Value="Registrar">
+                </form>
+            </div>
+            <p>¿Ya estas registrado? <a href="../es/inicio_sesion.html">Inicia sesión aquí.</a></p>
         </div>
-        <sub>¿Ya estas registrado? <a href="../es/inicio_sesion.html" style="text-decoration-color: blue;">Inicia sesión aquí.</a></sub>
     </main>
-   
 </body>
 </html>

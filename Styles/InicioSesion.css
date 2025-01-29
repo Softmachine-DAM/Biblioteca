@@ -1,8 +1,14 @@
 @import "../Styles/Estilos\(importados\).css";
 
+main{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+
 #sign-in{
-    width: 400px;
-	height: 500px;
+    width: 70%;
+	height: 100%;
 	background-color: #108cffea;
 	border: 5px solid #0004ff;
 	padding: 20px;
@@ -19,20 +25,14 @@
     text-align: center;
 }
 
-body{
-    background-image: url(https://www.podiprint.com/wp-content/uploads/2017/09/como-promocionar-un-libro.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-}
-
 #sign-in label{
     display: flexbox;
+    width: 60%;
     margin-bottom: 15px;
     text-align: center;
 }
 
-#sign-in input[type="email"], #sign-in input[type="password"]{
+#sign-in input{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -53,4 +53,11 @@ body{
 
 #sign-in input[type="submit"]:hover {
     background-color: #00f;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }

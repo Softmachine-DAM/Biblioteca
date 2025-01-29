@@ -1,7 +1,3 @@
-<?php
-    include("../PHP-JS/conexion.php");
-    $correo = "SELECT * FROM clientes_1";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -47,5 +43,30 @@
             <sub>¿No recuerda su contraseña? <a href="../PHP-JS/Restablecer.php" style="text-decoration-color: #0000; color: #0019a7;">Restablezca aqui.</a></sub>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer-section footer-links">
+            <a href="#">Política de privacidad</a>
+            <span>|</span>
+            <a href="somorrostro.com">Aviso legal</a>
+        </div>
+        <div class="footer-section footer-info">
+            Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+            Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
+            Teléfonos: 944 150 915, 944 156 930
+        </div>
+        <div class="footer-section footer-social">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="/IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+        <div class="Softmachines">
+            <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>
+<?php
+    include("../PHP-JS/conexion.php");
+    $correo = "SELECT * FROM clientes_1";
+?>

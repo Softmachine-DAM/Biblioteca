@@ -1,3 +1,5 @@
+const boton = document.querySelector('.heart-button');
+
 boton.addEventListener('click',() => {
     const adivinar=Math.floor(Math.random()*10);
     let intento=prompt("Tienes este numero de aciertos");

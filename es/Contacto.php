@@ -39,7 +39,7 @@ include("../PHP-JS/Conexion.php");
     <main>
         <div class="form-content">
             <h2 class="Titulo_Contacto"><b>Enviar su formulario</b></h2>
-            <form action="quejas.php" method="post" class="container__form">
+            <form action="../PHP-JS/quejas.php" method="post" class="container__form">
                 <label for="Nombre">Nombre</label>
                 <input type="text" name="Nombre" id="Nombre" placeholder="Manolo Jiménez Curro">
    

@@ -54,7 +54,7 @@ include("../PHP-JS/Conexion.php");
                 <input type="text" name ="Comentarios" id="Comentarios" placeholder="Introduce un comentario">
                 <input class="btn" type="submit" value="Enviar">
             </form>
-            <sub><a href="/es/VerQuejas.php" style="text-decoration-color: blue;">¿Quieres saber las dudas mas frecuentes? !Mirelo aqui!</a></sub>
+            <sub><a href="../es/VerQuejas.php" style="text-decoration-color: blue;">¿Quieres saber las dudas mas frecuentes? !Mirelo aqui!</a></sub>
         </div>
         
     </main>

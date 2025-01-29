@@ -1,5 +1,5 @@
 <?php
-include("conexion.php");
+include("../PHP-JS/conexion.php");
 $usuarios = "SELECT * FROM quejas";
 ?>
 <!DOCTYPE html>
@@ -26,6 +26,6 @@ $usuarios = "SELECT * FROM quejas";
             <?php } mysqli_free_result($resultado);?>
 
 
-            <sub><a href="/Softmachine-DAM.github.io-main/es/contacto.php" style="text-decoration-color: blue;">Pulsa aqui para volver a la pagina de contacto</a></sub>  
+            <sub><a href="../es/contacto.php" style="text-decoration-color: blue;">Pulsa aqui para volver a la pagina de contacto</a></sub>  
 </body>
 </html>

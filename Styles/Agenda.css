@@ -1,38 +1,41 @@
 @import "../Styles/Estilos(importados).css";
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
 .agenda {
     text-align: center;
     font-weight: 400;
     font-style: normal;
-    font-size: 36px; 
+    font-size: 36px;
     color: black;
-    margin: 20px 0; 
+    margin: 10vh;
     text-transform: uppercase;
-  }
+}
 
-  .Dias {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.Dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 10px;
     padding: 20px;
-  }
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-  .Dias > div {
+.Dias div {
     width: 100px;
     height: 100px;
     perspective: 1000px;
-  }
+    position: relative;
+    cursor: pointer;
+}
 
-  .front,
-  .back {
+.front, .back {
     width: 100%;
     height: 100%;
     display: flex;
@@ -45,18 +48,83 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: white;
-  }
+}
 
 .front {
-  background-color: #007bff;
+    background-color: #007bff;
+}
+
+.back {
+    background-color: #ff5722;
+    transform: rotateY(180deg);
+}
+
+footer {
+    background-color: rgb(56, 130, 243);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    margin-left: 25px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-social a {
+    margin: 0 5px;
+}
+
+.footer-social img {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+    transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2);
+    color:blue; 
 }
 
 
-.back{
-  background-color: #ff5722;
+.Softmachines{
+    background-color: #0a1a2a;
+    padding:15px 10px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
 }
 
-
-
-
-
+.heart-button{
+    background-color: red;
+    color: #fff;
+    padding:  12px 24px;
+    font-size: 20px;
+    font-weight:bold;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.75);
+    animation: heartbeat 1s infinite;
+}

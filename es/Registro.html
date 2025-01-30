@@ -6,51 +6,81 @@
     <meta name="author" content="Softmachines">
     <meta name="fecha" content="20-10-2024">
     <meta name="proyecto reto" content="WEB-RETO-1">
-    <meta name="keywords" content="registro,libros, biblioteca, Muskiz, lectura" >
+    <meta name="keywords" content="registro,libros, biblioteca, Muskiz, lectura">
     <title>Registro</title>
     <link rel="stylesheet" href="../Styles/Registro.css">
     <link rel="icon" type="image/x-icon" href="../IMAGENES/LOGO_MUSKIZ.jpg">
-
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="../IMAGENES/LOGO_MUSKIZ.jpg" alt="Bilbao Logo">
-            <h1 class="Biblioteca_muskiz">   BIBLIOTECA DE MUSKIZ</h1>
+            <h1 class="Biblioteca_muskiz">BIBLIOTECA DE MUSKIZ</h1>
         </div>
         <nav class="menu">
-            <a href="./Index.html"> |    <b>Inicio</b>     |</a>
-            <a href="./Contacto.html">|    <b>Ayuda</b>    |</a>
-            <a href="./Accesibilidad.html">|  <b>Accesibilidad</b>    |</a>
-            <a href="./Registro.html">  <b>| Registro  |</b>   </a>
-            <a href="../eus/Registro(eus).html">  <b> >  Euskaraz  </b>   </a>
+            <a href="./Index.html"> | <b>Inicio</b> |</a>
+            <a href="./Contacto.html">| <b>Ayuda</b> |</a>
+            <a href="./Accesibilidad.html">| <b>Accesibilidad</b> |</a>
+            <a href="./Registro.html"> <b>| Registro |</b> </a>
+            <a href="../eus/Registro(eus).html"> <b> > Euskaraz </b> </a>
         </nav>
         <div class="contacto">
-            <a href="softmachines@gmial.com"> 
-                
-            </a>
+            <a href="softmachines@gmial.com"></a>
         </div>
     </header>
     <main>
         <div id="sign-up">
-            <h1 class="Titulo_Registro"><b>Nuevo registro</b></h1> 
-            <div class="formulario">
-                <form action="insertar.php" method="post" class="container__form">
-                    <label for="" class="container__label">Nombre:</label>
-                    <input name="Nombre" type="text" class="container__input">
-                    <label for="" class="container__label">Apellidos:</label>
-                    <input name="Apellidos" type="text" class="container__input">
-                    <label for="" class="container__label">Correo:</label>
-                    <input name="Correo" type="text" class="container__input">
-                    <label for="" class="container__label">Telefono:</label>
-                    <input name="Telefono" type="number" class="container__input">
-                    <label for="" class="container__label">Contraseña:</label>
-                    <input name="Contraseña" type="text" class="container__input">
-                    <input class="table_item__link" type="Submit" Value="Registrar">
+            <h1 class="Titulo_Registro"><b>Nuevo registro</b></h1>
+            <div id="form">
+                <form action="../PHP-JS/insertar.php" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input name="Nombre" type="text" id="nombre" class="datos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos:</label>
+                        <input name="Apellidos" type="text" id="apellidos" class="datos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo:</label>
+                        <input name="Correo" type="email" id="email" class="datos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Teléfono:</label>
+                        <input name="Telefono" type="tel" id="tel" class="datos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="passwd">Contraseña:</label>
+                        <input name="Contraseña" type="password" id="passwd" class="datos" required>
+                    </div>
+                    <div class="form-group">
+                        <input id="Submit" type="submit" value="Registrar">
+                    </div>
                 </form>
             </div>
-            <p>¿Ya estas registrado? <a href="../es/inicio_sesion.html">Inicia sesión aquí.</a></p>
+            <p>¿Ya estás registrado? <a href="../es/inicio_sesion.html">Inicia sesión aquí.</a></p>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer-section footer-links">
+            <a href="#">Política de privacidad</a>
+            <span>|</span>
+            <a href="somorrostro.com">Aviso legal</a>
+        </div>
+        <div class="footer-section footer-info">
+            Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+            Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
+            Teléfonos: 944 150 915, 944 156 930
+        </div>
+        <div class="footer-section footer-social">
+            <a href="https://www.facebook.com/muskizko.liburutegia/"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="../IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+        <div class="Softmachines">
+            <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>

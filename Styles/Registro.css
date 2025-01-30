@@ -1,68 +1,105 @@
-@import "../Styles/Estilos\(importados\).css";
+@import "../Styles/Estilos(importados).css";
 
-main{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+main {
+    flex: 1; /* Allow main content to grow and push the footer down */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0; /* Add padding to avoid overlap with the footer */
 }
 
-#sign-up{
+#sign-up {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 70%;
-	background-color: #108cffea;
-	border: 5px solid #0004ff;
-	padding: 20px;
-	margin: 0 auto;
-	margin-top: 100px;
-	box-shadow: 0px 0px 10px #847dbe;
+    background-color: #108cffea;
+    border: 5px solid #0004ff;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #847dbe;
+    border-radius: 10px;
 }
 
-.Titulo_Registro{
+.Titulo_Registro {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
     text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
-#sign-up label{
-    display: flexbox;
-    width: 60%;
+#form {
+    width: 100%;
+}
+
+.form-group {
     margin-bottom: 15px;
-    text-align: center;
 }
 
-#sign-up input{
+label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.datos {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
     border: 1px solid #847dbe;
     border-radius: 5px;
+    font-size: 14px;
     box-sizing: border-box;
 }
 
-#sign-up input[type="submit"]{
+.datos:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#Submit {
     width: 100%;
     padding: 10px;
     background-color: #44f;
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#sign-up input[type="submit"]:hover {
+#Submit:hover {
     background-color: #00f;
 }
 
-#sign-up p a {
-    text-decoration: none;
-    color: green;
+#sign-up p {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
 }
 
-footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%
+#sign-up p a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+#sign-up p a:hover {
+    text-decoration: underline;
+}
+

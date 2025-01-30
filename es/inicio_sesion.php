@@ -55,9 +55,9 @@
             Teléfonos: 944 150 915, 944 156 930
         </div>
         <div class="footer-section footer-social">
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/muskizko.liburutegia/"><img src="facebook-icon.png" alt="Facebook"></a>
             <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="/IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="../IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
             <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
         </div>
         <div class="Softmachines">

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Styles/Estilos_Inicio_Sesion.css">
+    <link rel="stylesheet" href="../Styles/InicioSesion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../Imagenes/LOGO_MUSKIZ.png">
 </head>
@@ -49,6 +49,27 @@
         </div>
         <sub>¿Ya estas registrado? <a href="../es/inicio_sesion.php" style="text-decoration-color: blue;">Inicia sesión aquí.</a></sub>
     </main>
+    <footer class="footer">
+        <div class="footer-section footer-links">
+            <a href="#">Política de privacidad</a>
+            <span>|</span>
+            <a href="somorrostro.com">Aviso legal</a>
+        </div>
+        <div class="footer-section footer-info">
+            Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+            Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
+            Teléfonos: 944 150 915, 944 156 930
+        </div>
+        <div class="footer-section footer-social">
+            <a href="https://www.facebook.com/muskizko.liburutegia/"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="../IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+        <div class="Softmachines">
+            <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>
 <?php

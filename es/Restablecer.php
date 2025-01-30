@@ -1,9 +1,3 @@
-<?php
-    include "./conexion.php";
-    $correo = '';
-    $usuarios = "SELECT * FROM clientes_1 WHERE Correo = '$correo'";
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -57,3 +51,8 @@
     </main>
 </body>
 </html>
+<?php
+    include "./conexion.php";
+    $correo = '';
+    $usuarios = "SELECT * FROM clientes_1 WHERE Correo = '$correo'";
+?>

@@ -1,0 +1,105 @@
+@import "../Styles/Estilos(importados).css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#reset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: #108cffea;
+    border: 5px solid #0004ff;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #847dbe;
+    border-radius: 10px;
+}
+
+.Titulo_Registro {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#form {
+    width: 100%;
+}
+
+.caja-form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.datos {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #847dbe;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.datos:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#Submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #44f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Submit:hover {
+    background-color: #00f;
+}
+
+#reset p {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+}
+
+#reset p a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#reset p a:hover {
+    text-decoration: underline;
+}
+

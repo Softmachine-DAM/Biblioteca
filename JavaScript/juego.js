@@ -10,16 +10,16 @@ boton.addEventListener('click',() => {
     while(contint<intento){
         number=prompt("Dame un numero");
     if (number==adivinar){
-        console.log("Enhorabuena has acertado el numero en "+contint+" intentos")
+        alert("Enhorabuena has acertado el numero en "+contint+" intentos")
         return;
     }else if(number>adivinar){
-        console.log("Tu numero es menor que el que tienes que acertar")
+        alert("Tu numero es menor que el que tienes que acertar")
     }else if(number<adivinar){
-        console.log("Tu numero es mayor que el que tienes que acertar")
+        alert("Tu numero es mayor que el que tienes que acertar")
     }
     contint++;
 
 }
-    console.log("El numero era el "+ adivinar);
+    alert("El numero era el "+ adivinar);
 }
 )

@@ -1,14 +1,10 @@
-<?php
-include("../PHP-JS/conexion.php");
-$usuarios = "SELECT * FROM quejas";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Quejas</title>
-    <link rel="stylesheet" href="../Styles/VerQuejas.css">
+    <link rel="stylesheet" href="/Softmachine-DAM.github.io-main/Styles/ver_quejas.css">
 </head>
 <body>
 <div class="container-table">
@@ -29,3 +25,7 @@ $usuarios = "SELECT * FROM quejas";
             <sub><a href="../es/contacto.php" style="text-decoration-color: blue;">Pulsa aqui para volver a la pagina de contacto</a></sub>  
 </body>
 </html>
+<?php
+include("../PHP-JS/conexion.php");
+$usuarios = "SELECT * FROM quejas";
+?>

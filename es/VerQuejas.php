@@ -8,7 +8,7 @@ $usuarios = "SELECT * FROM quejas";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Quejas</title>
-    <link rel="stylesheet" href="/Softmachine-DAM.github.io-main/Styles/ver_quejas.css">
+    <link rel="stylesheet" href="../Styles/VerQuejas.css>
 </head>
 <body>
 <div class="container-table">

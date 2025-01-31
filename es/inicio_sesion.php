@@ -32,15 +32,21 @@
     <main>
         <div id="sign-in">
             <h1 class="Titulo_Registro"><b>Inicio de Sesión</b></h1><br>
-            <form id="formulario" action="login.php" method="POST">
-                <label for="correo">Correo Electrónico</label>
-                <input type="email" name="Correo" id="correo" required>
-                <label for="contraseña">Contraseña</label>
-                <input type="password" name="Contraseña" id="contraseña" required>
-                <input type="submit" value="Iniciar Sesión">
+            <form id="formulario" action="../PHP-JS/login.php" method="POST">
+                <div class="caja-form">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" name="Correo" id="correo" required>
+                </div>
+                <div class="caja-form">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="Contraseña" id="contraseña" required>
+                </div>
+                <div class="caja-form">
+                    <input type="submit" value="Iniciar Sesión">
+                </div>
             </form>
-            <sub>¿No tienes cuenta? <a href="./Registro.php" style="text-decoration-color: #0000; color: #0019a7;">Crea una aquí.</a></sub><br>
-            <sub>¿No recuerda su contraseña? <a href="../PHP-JS/Restablecer.php" style="text-decoration-color: #0000; color: #0019a7;">Restablezca aqui.</a></sub>
+            <p>¿No tienes cuenta? <a href="./Registro.html">Crea una aquí.</a></p>
+            <p>¿No recuerda su contraseña? <a href="./Restablecer.php">Restablezca aqui.</a></p>
         </div>
     </main>
     <footer class="footer">

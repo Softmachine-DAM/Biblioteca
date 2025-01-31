@@ -18,6 +18,7 @@ main{
 }
 
 .Titulo_Registro{
+    color: #fff;
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -53,6 +54,18 @@ main{
 
 #sign-in input[type="submit"]:hover {
     background-color: #00f;
+}
+
+#sign-in p {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+}
+
+#sign-in p a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer{

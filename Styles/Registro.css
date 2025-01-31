@@ -7,15 +7,15 @@ body {
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    min-height: 100vh;
 }
 
 main {
-    flex: 1; /* Allow main content to grow and push the footer down */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0; /* Add padding to avoid overlap with the footer */
+    padding: 20px 0;
 }
 
 #sign-up {
@@ -46,7 +46,7 @@ main {
     width: 100%;
 }
 
-.form-group {
+.caja-form {
     margin-bottom: 15px;
 }
 

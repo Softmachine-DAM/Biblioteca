@@ -1,3 +1,7 @@
+<?php
+include("../PHP-JS/conexion.php");
+$usuarios = "SELECT * FROM quejas";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -25,7 +29,3 @@
             <sub><a href="../es/contacto.php" style="text-decoration-color: blue;">Pulsa aqui para volver a la pagina de contacto</a></sub>  
 </body>
 </html>
-<?php
-include("../PHP-JS/conexion.php");
-$usuarios = "SELECT * FROM quejas";
-?>

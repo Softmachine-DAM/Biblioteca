@@ -1,7 +1,3 @@
-<?php
-    include("../PHP-JS/conexion.php");
-    $correo = "SELECT * FROM clientes_1";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,16 +32,47 @@
     <main>
         <div id="sign-in">
             <h1 class="Titulo_Registro"><b>Inicio de Sesión</b></h1><br>
-            <form id="formulario" action="login.php" method="POST">
-                <label for="correo">Correo Electrónico</label>
-                <input type="email" name="Correo" id="correo" required>
-                <label for="contraseña">Contraseña</label>
-                <input type="password" name="Contraseña" id="contraseña" required>
-                <input type="submit" value="Iniciar Sesión">
+            <form id="formulario" action="../PHP-JS/login.php" method="POST">
+                <div class="caja-form">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" name="Correo" id="correo" required>
+                </div>
+                <div class="caja-form">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="Contraseña" id="contraseña" required>
+                </div>
+                <div class="caja-form">
+                    <input type="submit" value="Iniciar Sesión">
+                </div>
             </form>
-            <sub>¿No tienes cuenta? <a href="./Registro.php" style="text-decoration-color: #0000; color: #0019a7;">Crea una aquí.</a></sub><br>
-            <sub>¿No recuerda su contraseña? <a href="../PHP-JS/Restablecer.php" style="text-decoration-color: #0000; color: #0019a7;">Restablezca aqui.</a></sub>
+            <p>¿No tienes cuenta? <a href="./Registro.html">Crea una aquí.</a></p>
+            <p>¿No recuerda su contraseña? <a href="./Restablecer.php">Restablezca aqui.</a></p>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer-section footer-links">
+            <a href="#">Política de privacidad</a>
+            <span>|</span>
+            <a href="somorrostro.com">Aviso legal</a>
+        </div>
+        <div class="footer-section footer-info">
+            Ayuntamiento de Bilbao. Área de Cultura y Educación. Subdirección de Bibliotecas<br>
+            Calle Bidebarrieta, nº4, 48005 Bilbao.<br>
+            Teléfonos: 944 150 915, 944 156 930
+        </div>
+        <div class="footer-section footer-social">
+            <a href="https://www.facebook.com/muskizko.liburutegia/"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="../IMAGENES/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+        <div class="Softmachines">
+            <small>&copy;2024 <small>Softmachines </small> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>
+<?php
+    include("../PHP-JS/conexion.php");
+    $correo = "SELECT * FROM clientes_1";
+?>

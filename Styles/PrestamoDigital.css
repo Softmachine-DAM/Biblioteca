@@ -1,7 +1,7 @@
 @import "../Styles/Estilos\(importados\).css";
 
 body{
-    background-image: url(/IMAGENES/constructor.png);
+    background-image: url(../IMAGENES/constructor.png);
 }
 
 .CAJA{

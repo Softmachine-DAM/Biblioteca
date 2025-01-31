@@ -45,8 +45,6 @@ $usuarios = "SELECT * FROM quejas";
             <div class="table__item"><?php echo $row["Comentarios"];?></div>
             <?php } mysqli_free_result($resultado);?>
 
-
-            <sub><a href="../es/contacto.php" style="text-decoration-color: blue;">Pulsa aqui para volver a la pagina de contacto</a></sub>  
     </div>
 </body>
 <footer class="footer">

@@ -27,7 +27,7 @@
             <a href="Contacto(eus).php">|    <b>Laguntza</b>    |</a>
             <a href="Accesibilidad(eus).html">|  <b>Irisgarritasuna</b>    |</a>
             <a href="Registro(eus).html">  <b>| Erregistroa  |</b>   </a>
-            <a href="/es/inicio_sesion.php">  <b> >  Gazteleraz  </b>   </a>
+            <a href="../es/inicio_sesion.php">  <b> >  Gazteleraz  </b>   </a>
            
         </nav>
         <div class="contacto">

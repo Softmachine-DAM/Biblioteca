@@ -1,7 +1,3 @@
-<?php
-include("../PHP-JS/conexion.php");
-$usuarios = "SELECT * FROM quejas";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -71,3 +67,7 @@ $usuarios = "SELECT * FROM quejas";
  
       </footer> 
 </html>
+<?php
+include("../PHP-JS/conexion.php");
+$usuarios = "SELECT * FROM quejas";
+?>

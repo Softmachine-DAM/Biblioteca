@@ -27,7 +27,39 @@
 
     </div>
 </header>
-
+<main>
+  <div id="sign-up">
+      <h1 class="Titulo_Registro"><b>Erregistro Berria</b></h1>
+      <div id="formulatio">
+          <form action="../PHP-JS/insertar.php" method="post">
+              <div class="caja-form">
+                  <label for="nombre">Izena:</label>
+                  <input name="Nombre" type="text" id="nombre" class="datos" required>
+              </div>
+              <div class="caja-form">
+                  <label for="apellidos">Abizenak:</label>
+                  <input name="Apellidos" type="text" id="apellidos" class="datos" required>
+              </div>
+              <div class="caja-form">
+                  <label for="email">Helbidea:</label>
+                  <input name="Correo" type="email" id="email" class="datos" required>
+              </div>
+              <div class="caja-form">
+                  <label for="tel">Telefono Zenbakia:</label>
+                  <input name="Telefono" type="tel" id="tel" class="datos" required>
+              </div>
+              <div class="caja-form">
+                  <label for="passwd">Pasahitza:</label>
+                  <input name="Contraseña" type="password" id="passwd" class="datos" required>
+              </div>
+              <div class="caja-form">
+                  <input id="Submit" type="submit" value="Registrar">
+              </div>
+          </form>
+      </div>
+      <p>Dagoeneko erregistratuta zaude?<a href="inicio_sesion(eus).php">Hasi saioa hemen.</a></p>
+  </div>
+</main>
 <footer class="footer">
     <div class="footer-section footer-links">
       <a></a>
